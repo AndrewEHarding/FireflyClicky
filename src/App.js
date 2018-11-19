@@ -21,6 +21,27 @@ class App extends React.Component {
     return arr;
   }
 
+  newGame = () => {
+    this.setState({score: 0});
+    this.shuffle(this.state.characters);
+  }
+
+  cardClick = (event) => {
+    if(!event.click){
+      event.click = false;
+      this.setState({score: this.state.score + 1});
+      this.setState({characters: this.shuffle(this.state.characters)});
+    }
+    else{
+      if(this.state.score > this.state.topScore){
+        this.setState({topScore: this.state.score});
+      }
+      // newGame();
+    }
+  }
+
+
+
   render() {
     return (
       <Wrapper>
@@ -34,6 +55,7 @@ class App extends React.Component {
             name={character.name}
             key={character.id}
             // onClick={this.shuffle(this.state.characters)}
+            // onClick={this.cardClick()}
           />
         ))}
       </Wrapper>
