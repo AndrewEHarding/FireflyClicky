@@ -3,6 +3,7 @@ import characters from "./characters";
 import Wrapper from "./components/Wrapper";
 import Header from './components/Header';
 import Card from "./components/Card";
+import "./App.css";
 
 class App extends React.Component {
   state = {
@@ -27,15 +28,14 @@ class App extends React.Component {
           score={this.state.score}
           topScore={this.state.topScore}
         />
-        {this.state.characters.map(
-          character => (
-            <Card 
-              img={character.img}
-              name={character.name}
-              key={character.id}
-            />
-          )
-        )}
+        {this.state.characters.map(character => (
+          <Card
+            img={character.img}
+            name={character.name}
+            key={character.id}
+            // onClick={this.shuffle(this.state.characters)}
+          />
+        ))}
       </Wrapper>
     );
   }

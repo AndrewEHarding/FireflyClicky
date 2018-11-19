@@ -1,0 +1,16 @@
+.card {
+    width: 250px;
+    position: relative;
+    margin: 10px;
+}
+
+.card-body {
+    overflow: hidden;
+    text-align: center;
+
+}
+
+img {
+    width: 200px;
+    vertical-align: baseline;
+}
