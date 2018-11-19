@@ -7,7 +7,7 @@ const Header = props => {
             <h2>You Can't Take the Sky From Me...</h2>
             <p className="lead">Welcome to the Firefly Clicky Game! The object of the game is to click the portrait of each character once. The trick is that every time you click a portrait, they’re all randomized. Memory is key if you want a high score. Good luck!</p>
             <hr className="my-4" />
-            <p>Current Score: Top Score:</p>
+            <p>Current Score: {props.score} Top Score: {props.topScore}</p>
         </div>
     );
 };

@@ -1,8 +1,12 @@
 import React from 'react';
+import characters from "./characters";
 import Wrapper from "./components/Wrapper";
+import Header from './components/Header';
+import Card from "./components/Card";
 
 class App extends React.Component {
   state = {
+    characters,
     score: 0,
     topScore: 0,
     clicked: []
@@ -16,10 +20,23 @@ class App extends React.Component {
     return arr;
   }
 
-
   render() {
     return (
-      <Wrapper />
+      <Wrapper>
+        <Header
+          score={this.state.score}
+          topScore={this.state.topScore}
+        />
+        {this.state.characters.map(
+          character => (
+            <Card 
+              img={character.img}
+              name={character.name}
+              key={character.id}
+            />
+          )
+        )}
+      </Wrapper>
     );
   }
 }
