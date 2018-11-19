@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Mal",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/3/39/Mal.jpg/revision/latest/scale-to-width-down/250?cb=20080301061839",
+        "click": false
+    },
+    {
+        "id": 2,
+        "name": "Zoë",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/1/10/Zoe.jpg/revision/latest/scale-to-width-down/250?cb=20080301064448",
+        "click": false
+    },
+    {
+        "id": 3,
+        "name": "Wash",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/f/fa/Wash.jpg/revision/latest/scale-to-width-down/250?cb=20080301062346",
+        "click": false
+    },
+    {
+        "id": 4,
+        "name": "Book",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/e/e2/Book.jpg/revision/latest/scale-to-width-down/250?cb=20080301063245",
+        "click": false
+    },
+    {
+        "id": 5,
+        "name": "Jayne",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/d/d0/Jayne.jpg/revision/latest/scale-to-width-down/250?cb=20080301065044",
+        "click": false
+    },
+    {
+        "id": 6,
+        "name": "Simon",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/6/63/Simon2.jpg/revision/latest/scale-to-width-down/250?cb=20080308044029",
+        "click": false
+    },
+    {
+        "id": 7,
+        "name": "River",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/2/2c/River.jpg/revision/latest/scale-to-width-down/250?cb=20080301023737",
+        "click": false
+    },
+    {
+        "id": 8,
+        "name": "Inara",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/c/c3/Inara02.jpg/revision/latest/scale-to-width-down/250?cb=20080301063009",
+        "click": false
+    },
+    {
+        "id": 9,
+        "name": "Kaylee",
+        "img": "https://vignette.wikia.nocookie.net/firefly/images/5/55/Kaylee.jpg/revision/latest/scale-to-width-down/250?cb=20100426173058",
+        "click": false
+    }
+]
